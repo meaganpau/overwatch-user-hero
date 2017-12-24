@@ -1,0 +1,14 @@
+.intro-block-header {
+    .home-header__logo {
+        max-width: 220px;
+    }
+    .intro-block-header-msg {
+        margin: 25px auto;
+        .intro-block-help-text {
+            font-size: 14px;
+            color: $help_text;
+            padding: 5px;
+            font-style: italic;
+        }
+    }
+}

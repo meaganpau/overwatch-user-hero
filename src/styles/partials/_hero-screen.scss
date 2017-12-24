@@ -1,0 +1,70 @@
+.hero-screen {
+    position: relative;
+    top: -20px;
+    .portrait_details {
+        position: relative;
+        #hero-portrait {
+            position: absolute;
+            position: absolute;
+            top: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 115px;
+            border-radius: 50%;
+        }
+        #level-frame {
+            display: block;
+            z-index: 100;
+            margin: 0 auto;
+            position: relative;
+        }
+        #stars-img {
+            position: absolute;
+            left: 50%;
+            bottom: -7px;
+            transform: translateX(-50%);
+        }
+    }
+    .user_details_container {
+        .user_username {
+            margin: 10px auto;
+        }
+        .user_details {
+            text-align: left;
+            margin: 0 auto;
+            margin-left: 38%;
+        }
+        p {
+            font-size: 22px;
+            line-height: 1.5;
+        }
+        h2 {
+            margin: 0;
+        }
+        #rank-img {
+            display: inline-block;
+            width: 45px;
+            position: relative;
+            top: 7px;
+        }
+        
+        #rank-img-block {
+            display: inline-block;
+            width: 58px;
+        }
+
+        #username {
+            display: inline-block;
+            font-size: 42px;
+        }
+        #user-level {
+
+        }
+        #user-sr {
+
+        }
+        #user-main {
+
+        }
+    }
+}

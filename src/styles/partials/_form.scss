@@ -1,0 +1,53 @@
+.input-form {
+    label {
+        font-weight: bolder;
+        display: inline-block;
+        width: 90px;
+    }
+    input[type=text] {
+        background: #F1F1F1;
+        border: 1px solid #D1D1D1;
+        border-radius: 3px;
+        padding: 5px 10px;
+        width: 100%;
+        max-width: 300px;
+        font-family: $main_font;
+    }
+    input[type=submit] {
+        display: block;
+        margin: 0 auto;
+        background: $ow_orange;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        width: 150px;
+        height: 40px;
+        font-weight: bold;
+        font-family: $main_font;
+        transition: 0.3s all ease;
+        &:hover, &:active {
+            cursor: pointer;
+            background: darken($ow_orange, 5%);
+        }
+    }
+    .input-form-row {
+        margin: 15px auto;
+        .form-block {
+            display: inline-block;
+            width: 90px;
+        }
+    }
+    .error-msg {
+        margin: 12px auto;
+        color: $error_msg;
+        .error-msg-label {
+            font-weight: bold;
+        }
+    }
+    .help-text {
+        color: $help_text;
+        font-size: 12px;
+        font-style: italic;
+        margin: 5px auto;
+    }
+}
